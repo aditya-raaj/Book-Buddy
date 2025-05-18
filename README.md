@@ -1,37 +1,14 @@
-
-  
-# BookBuddy : Popularity and Collaborative filtering based Book Recommendation System
+# Book Recommendation System
 
 A web-based book recommendation application that suggests books to users based on popularity metrics and collaborative filtering techniques.
-
-
-
 
 ## Overview
 
 This project implements a book recommendation system using two primary approaches:
-
-### **Popularity-Based Recommendation**
- - Suggests books that are generally popular among all users
-
-<div align="center">
-  
-  <img src="https://raw.githubusercontent.com/aditya-raaj/Book-Buddy/main/data/Project1.gif" alt="Project demo GIF" />
-
-</div>
-
-### **Collaborative Filtering** 
- - Provides personalized recommendations based on similar user preferences
-
-<div align="center">
-  
-  <img src="https://raw.githubusercontent.com/aditya-raaj/Book-Buddy/main/data/Project2.gif" alt="Project demo GIF" />
-
-</div>
+- **Popularity-Based Recommendation**: Suggests books that are generally popular among all users
+- **Collaborative Filtering**: Provides personalized recommendations based on similar user preferences
 
 The system is deployed as a web application where users can discover new books tailored to their interests.
-
----
 
 ## Features
 
@@ -40,17 +17,12 @@ The system is deployed as a web application where users can discover new books t
 - User-friendly web interface
 - Search functionality for books
 
----
-
 ## Technology Stack
 
 - **Backend**: Python with Flask
 - **Data Processing**: Pandas, NumPy, scikit-learn
 - **Model Serialization**: Pickle
 - **Frontend**: HTML, CSS, JavaScript
-- **Deployment**: Ready for deployment on platforms like Heroku (Procfile included)
-
----
 
 ## Project Structure
 ```├── data/                      # Dataset files
@@ -62,7 +34,6 @@ The system is deployed as a web application where users can discover new books t
 ├── pt.pkl                     # Pivot table data
 ├── similarity_scores.pkl      # Collaborative filtering similarity matrix
 ├── requirements.txt           # Python dependencies
-└── Procfile                   # Heroku deployment configuration
 ```
 ## Installation
 
@@ -86,17 +57,11 @@ python app.py
 ```
 5. Open your browser and navigate to `http://localhost:5000`
 
-
----
-
 ## Usage
 
 1. **Home Page**: Displays popular book recommendations
 2. **Recommendation Page**: Enter a book you like to get similar recommendations
 3. **Search**: Search for specific books by title or author
-
----
-
 
 ## How It Works
 
@@ -106,9 +71,6 @@ Books are ranked based on factors like ratings count and average rating score. T
 ### Collaborative Filtering
 This approach analyzes user-book interactions to find patterns and similarities between users. When a user selects a book they like, the system finds similar books based on how other users with similar preferences have rated them.
 
-
----
-
 ## Future Improvements
 
 - Content-based filtering using book descriptions and metadata
@@ -116,10 +78,10 @@ This approach analyzes user-book interactions to find patterns and similarities 
 - User account system to track preferences over time
 - Integration with external book APIs for richer data
 
----
-
 ## Contributors
 
 - [Aditya Raj](https://github.com/aditya-raaj)
 
+## License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
