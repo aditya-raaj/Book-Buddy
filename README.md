@@ -4,10 +4,24 @@ A web-based book recommendation application that suggests books to users based o
 
 ## Overview
 
-This project implements a book recommendation system using two primary approaches:
-- **Popularity-Based Recommendation**: Suggests books that are generally popular among all users
-- **Collaborative Filtering**: Provides personalized recommendations based on similar user preferences
 
+### **Popularity-Based Recommendation**
+ - Suggests books that are generally popular among all users
+
+<div align="center">
+  
+  <img src="https://raw.githubusercontent.com/aditya-raaj/Book-Buddy/main/data/Project1.gif" alt="Project demo GIF" />
+
+</div>
+
+### **Collaborative Filtering** 
+ - Provides personalized recommendations based on similar user preferences
+
+<div align="center">
+  
+  <img src="https://raw.githubusercontent.com/aditya-raaj/Book-Buddy/main/data/Project2.gif" alt="Project demo GIF" />
+
+</div>
 The system is deployed as a web application where users can discover new books tailored to their interests.
 
 ## Features
