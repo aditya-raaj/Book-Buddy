@@ -65,6 +65,4 @@ def recommend():
 def contact():
     return render_template('contact.html')
 
-# Entry point of the application
-if __name__ == '__main__':
-    app.run(debug=True)  # Start Flask app in debug mode for real-time changes and error trace
+
