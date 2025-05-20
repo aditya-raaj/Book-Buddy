@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-book-recommender
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn wsgi:app
+    envVars:
+      - key: FLASK_ENV
+        value: production

@@ -1,4 +1,4 @@
 from app import app
 
-# This makes it compatible with Vercel's Python runtime
-app = app
+if __name__ == "__main__":
+    app.run()

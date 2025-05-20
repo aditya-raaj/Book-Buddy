@@ -1,3 +1,4 @@
-flask==3.1.1
-numpy==2.2.6
-pandas==2.2.3
+Flask==3.1.1               # Core web framework
+gunicorn==23.0.0           # WSGI server required for production (Render)
+numpy==2.2.5               # Required for indexing and similarity scores
+pandas==2.2.3              # Required for DataFrame manipulation
