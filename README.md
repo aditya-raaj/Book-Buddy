@@ -71,6 +71,22 @@ python app.py
 ```
 5. Open your browser and navigate to `http://localhost:5000`
 
+## Run with Docker
+
+To quickly get the application running using Docker visit: https://hub.docker.com/r/aadit07/bookrecommend:v1
+
+
+1. **Pull the Docker image**:
+   ```bash
+   docker pull aadit07/bookrecommend
+   ```
+2. **Run the container:**:
+   ```bash
+   docker run -p 5000:5000 aadit07/bookrecommend:v1
+   ```
+3. **Open your browser and navigate to:** http://localhost:5000
+
+
 ## Usage
 
 1. **Home Page**: Displays popular book recommendations
