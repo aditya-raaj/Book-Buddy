@@ -73,7 +73,7 @@ python app.py
 
 ## Run with Docker
 
-To quickly get the application running using Docker visit: https://hub.docker.com/r/aadit07/bookrecommend:v1
+To quickly get the application running using Docker visit: [https://hub.docker.com/r/aadit07/bookrecommend](https://hub.docker.com/r/aadit07/bookrecommend)
 
 
 1. **Pull the Docker image**:
